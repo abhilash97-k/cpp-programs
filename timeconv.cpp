@@ -5,9 +5,9 @@ int main()
 {
     float mi, ho, sec;
     cout<<"Enter the time in minutes"<<endl;
-    cin>>mi;
-    ho = mi / 60;
-    sec = mi * 60;
+    cin>>sec;
+    ho = sec / 360;
+    mi = sec / 60;
     cout<<"The Minutes are "<<mi<<endl;
     cout<<"The hours are "<<ho<<endl;
     cout<<"The seconds are "<<sec;
